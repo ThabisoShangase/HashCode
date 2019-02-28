@@ -4,11 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Photo {
+    int id;
     Alignment alignment;
     int numOfTags;
     List<String> tags = new ArrayList<>();
 
     public Photo() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(final int id) {
+        this.id = id;
     }
 
     public Alignment getAlignment() {
